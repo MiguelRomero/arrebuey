@@ -1,0 +1,26 @@
+{
+  "name": "arrebuey",
+  "description": "Red Social de fotos graciosas",
+  "main": "server.js",
+  "authors": [
+    "@Galifreyano"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "socialNetwork"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
