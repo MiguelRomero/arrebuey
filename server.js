@@ -17,9 +17,8 @@
     app = config(app);
     
     // crear las rutas de pruebas de la app
-    app.get('/',(req,resp)=>{
-      resp.send("Hola arreBuey");  
-    });
+  
+    
     
     //Consultar las variables de entorno para rescatar la ip y el puerto
     const IP = app.get('ip');
